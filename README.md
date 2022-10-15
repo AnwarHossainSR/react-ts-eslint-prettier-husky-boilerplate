@@ -9,3 +9,4 @@ How to run this application?
 ### With Docker
 docker compose build \
 docker compose up
+ Test
