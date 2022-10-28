@@ -1,7 +1,15 @@
-import 'assets/styles/index.scss';
+import './App.css';
+import logo from './logo.svg';
 
 function App() {
-  return <h1>React Typescript Boilerplate</h1>;
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>React + TypeScript + ESLint + Prettier + Husky + Lint-Staged</p>
+      </header>
+    </div>
+  );
 }
 
 export default App;
